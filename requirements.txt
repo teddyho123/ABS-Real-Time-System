@@ -1,0 +1,5 @@
+numpy
+fastapi 
+uvicorn
+chart.js 
+react-chartjs-2
