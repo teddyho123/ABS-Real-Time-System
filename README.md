@@ -6,14 +6,24 @@ Backend - Python, FastAPI
 Frontend - React, Chart.js
 
 
-Make sure the requirements are up to date.
+Before developing:
 
-To start the backend server:
-cd backend
-uvicorn main:app --reload
+Install venv
 
+python -m venv venv
+Activate virtual environment
 
-To start the frontend server:
 venv/Scripts/activate
-npm start
+Install all the dependecies in both backend and frontend
 
+pip install -r requirements.txt (backend)
+npm install (frontend)
+To start developing:
+
+in the frontend dir
+
+npm run build
+npm start
+in the backend dir
+
+python -m uvicorn main:app --reload
